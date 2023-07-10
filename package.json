@@ -1,0 +1,23 @@
+{
+  "name": "projet_4_food",
+  "version": "1.0.0",
+  "description": "projet openclassroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeslieDER/Projet_4_Food.git"
+  },
+  "keywords": [
+    "Alexandre2402@"
+  ],
+  "author": "Moi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeslieDER/Projet_4_Food/issues"
+  },
+  "homepage": "https://github.com/LeslieDER/Projet_4_Food#readme"
+}

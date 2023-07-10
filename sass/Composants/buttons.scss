@@ -1,0 +1,81 @@
+
+.btn-choisir:hover {
+    background-color: #F5EDFF;
+}
+
+@media all and (min-width: 320px) {
+    
+    .btn-restaurant_B {
+        background: linear-gradient(90deg,$Primary_color, $Tertiaire_color );
+        color: $White_color;
+        border-radius: 20px;
+        width: 46%;
+        height: 42px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 9%;
+        margin-left: 29%;
+        margin-top: 9%;
+        
+    }
+
+
+        
+    .btn-new {
+        position: absolute;
+        width: 79%;
+        display: flex;
+        justify-content: end;
+        margin-top: 4%;
+        span {
+            background: $Secondary_color;
+            color: #008766;
+            padding-right: 6px;
+            padding-left: 6px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }   
+    }
+
+
+    .btn-choisir {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 85%;
+        height: 90px;
+        border-radius: 25Px;
+        background:$White_color;
+    }
+
+    .restaurant {
+        .btn-restaurant {
+            background: linear-gradient(90deg, $Primary_color, $Tertiaire_color);
+            color: $White_color;
+            border-radius: 20px;
+            width: 60%;
+            height: 43px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 3%;
+        }
+    }
+ 
+    .number {
+        width: 10%;
+        justify-content: center;
+        display: flex;
+        margin-left: -19%;
+        color: $Primary_color;
+        .fa-1,.fa-2,.fa-3 {
+            color: $White_color;
+            position: absolute;
+            align-self: center;
+        }
+    }
+}   
